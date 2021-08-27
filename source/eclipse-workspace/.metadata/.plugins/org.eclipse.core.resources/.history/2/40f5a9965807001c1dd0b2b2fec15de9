@@ -1,0 +1,31 @@
+package com.joinmain.listener;
+
+import org.bukkit.event.EventHandler;
+import org.bukkit.event.Listener;
+import org.bukkit.event.player.PlayerJoinEvent;
+
+public class Joinlistener implements Listener{
+
+	@EventHandler
+	public void handlePlayerJoin(PlayerJoinEvent event) {
+		
+		// Get player name from event
+		String name = event.getPlayer().getName();
+		
+		// Set join message
+		event.setJoinMessage("§c" + name + " is now offline");
+		
+	}
+	
+	@EventHandler
+	public void handlePlayerQuit(PlayerJoinEvent event) {
+		
+		// Get player name from event
+		String name = event.getPlayer().getName();
+		
+		// Set join message
+		event.setJoinMessage("§c" + name + " is now offline");
+		
+	}
+	
+}

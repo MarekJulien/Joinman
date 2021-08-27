@@ -1,0 +1,12 @@
+package com.joinmain.listener;
+
+import org.bukkit.entity.Player;
+import org.bukkit.event.Listener;
+
+public class Joinlistener implements Listener{
+
+	public void handlePlayerJoin(Player player) {
+		
+	}
+	
+}

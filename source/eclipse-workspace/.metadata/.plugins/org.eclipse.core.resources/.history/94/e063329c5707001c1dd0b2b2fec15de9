@@ -1,0 +1,11 @@
+package com.joinmain.listener;
+
+import org.bukkit.event.Listener;
+
+public class Joinlistener implements Listener{
+
+	public void handlePlayerJoin() {
+		
+	}
+	
+}

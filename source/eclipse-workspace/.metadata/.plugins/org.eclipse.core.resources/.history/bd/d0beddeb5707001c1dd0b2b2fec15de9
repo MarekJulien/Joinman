@@ -1,0 +1,18 @@
+package com.joinmain.listener;
+
+import org.bukkit.entity.Player;
+import org.bukkit.event.EventHandler;
+import org.bukkit.event.Listener;
+import org.bukkit.event.player.PlayerJoinEvent;
+
+public class Joinlistener implements Listener{
+
+	@EventHandler
+	public void handlePlayerJoin(PlayerJoinEvent event) {
+		
+		// Get player name from event
+		String name = event.getPlayer().getName();
+		
+	}
+	
+}
