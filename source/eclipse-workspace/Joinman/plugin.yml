@@ -1,0 +1,7 @@
+main: com.joinman.program.Main
+name: Joinman
+version: 1.0.0
+description: Adds custom join and leave messages
+api-version: 1.17.1
+load: STARTUP
+author: marek.scheppelmann@protonmail.com
